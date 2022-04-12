@@ -1,0 +1,11 @@
+.reason-card {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.reason-card__header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
