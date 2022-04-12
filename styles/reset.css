@@ -47,6 +47,12 @@ ol li {
     text-align: inherit;
 }
 
-ul {
+ol ul {
+    display: inherit;
     list-style-type: none;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+    padding-inline-start: inherit;
 }
