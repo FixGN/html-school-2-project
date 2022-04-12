@@ -2,6 +2,9 @@
 @import "/styles/reset.css";
 @import "/styles/font.css";
 
+/* Mixins */
+@import "/styles/mixins/button.css";
+
 /* Blocks */
 @import "/styles/blocks/baner.css";
 @import "/styles/blocks/body.css";
