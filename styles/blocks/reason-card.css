@@ -9,3 +9,20 @@
     font-weight: 700;
     line-height: 26px;
 }
+
+.reason-card__image {
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 320px;
+}
+
+.reason-card__image--city {
+    background-color: #dfd6d8;
+    background-image: url("/img/photo-city@1x.jpg");
+}
+
+.reason-card__image--bridge{
+    background-color: #e2b29b;
+    background-image: url("/img/photo-bridge@1x.jpg");
+}
