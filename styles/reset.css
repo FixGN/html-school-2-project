@@ -1,0 +1,17 @@
+a {
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li ol {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+    text-transform: inherit;
+    background-color: inherit;
+    line-height: inherit;
+    border: inherit;
+}
