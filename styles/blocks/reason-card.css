@@ -4,6 +4,10 @@
     line-height: 21px;
 }
 
+.reason-card--blue {
+    background-color: #81B3D2;
+}
+
 .reason-card__header {
     font-size: 18px;
     font-weight: 700;
