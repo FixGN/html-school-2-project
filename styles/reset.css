@@ -4,6 +4,44 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-family: inherit;
+    text-transform: inherit;
+    background-color: inherit;
+    line-height: inherit;
+    border: inherit;
+}
+
+h1 {
+    display: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+}
+
+h2 {
+    display: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+}
+
+h3 {
+    display: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+}
+
 ol li {
     list-style: none;
     text-align: inherit;
@@ -11,12 +49,4 @@ ol li {
 
 ul {
     list-style-type: none;
-}
-
-button {
-    font-family: inherit;
-    text-transform: inherit;
-    background-color: inherit;
-    line-height: inherit;
-    border: inherit;
 }
