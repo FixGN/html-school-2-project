@@ -42,12 +42,17 @@ h3 {
     margin-inline-end: inherit;
 }
 
-ol li {
-    list-style: none;
-    text-align: inherit;
+ol {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
-ol ul {
+ul {
     display: inherit;
     list-style-type: none;
     margin-block-start: inherit;
@@ -55,4 +60,10 @@ ol ul {
     margin-inline-start: inherit;
     margin-inline-end: inherit;
     padding-inline-start: inherit;
+}
+
+li {
+    display: inherit;
+    list-style: none;
+    text-align: inherit;
 }
