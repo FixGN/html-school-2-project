@@ -10,3 +10,7 @@
     font-weight: 700;
     line-height: 26px;
 }
+
+.reason-subitem-card__image {
+    fill: #81B3D2;
+}
