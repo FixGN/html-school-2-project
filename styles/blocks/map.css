@@ -1,6 +1,22 @@
 .map {
     background-color: #f3f2ed;
     background-image: url("/img/map@1x.jpg");
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: 350px;
     width: 320px;
+}
+
+.map__marker {
+    background-color: #81B3D2;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+
+    position: relative;
+    box-shadow: 0 0 0 5px #ffffff;
 }
