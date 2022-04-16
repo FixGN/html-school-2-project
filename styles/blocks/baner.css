@@ -1,0 +1,18 @@
+.baner {
+    background-color: #dbebf2;
+    background-image: url("/img/baner-desktop@1x.jpg");
+    height: 389px;
+    width: 320px;
+}
+
+.baner__text {
+    fill: #FFFFFF;
+}
+
+.baner__text--blue {
+    fill: #81B3D3;
+}
+
+.baner__text--brown {
+    fill: #766458;
+}

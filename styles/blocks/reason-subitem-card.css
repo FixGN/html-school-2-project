@@ -1,0 +1,13 @@
+.reason-subitem-card {
+    text-align: left;
+}
+
+.reason-subitem-card__header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.reason-subitem-card__image {
+    fill: #81B3D2;
+}
