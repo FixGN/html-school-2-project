@@ -1,5 +1,11 @@
-.social-networks-item{
+.social-networks-item__link {
+    display: flex;
     background-color: #81B3D2;
+    height: 48px;
+    width: 48px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .social-networks-item__icon {
