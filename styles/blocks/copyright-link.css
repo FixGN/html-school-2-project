@@ -1,3 +1,7 @@
 .copyright-link__image {
     fill: #000000;
 }
+
+.copyright-link__text {
+    margin-right: 12px;
+}
