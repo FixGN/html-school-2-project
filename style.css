@@ -8,8 +8,8 @@
 /* Blocks */
 @import "/styles/blocks/banner.css";
 @import "/styles/blocks/body.css";
-@import "/styles/blocks/developed-by-link.css";
-@import "/styles/blocks/developed-by.css";
+@import "/styles/blocks/copyright-link.css";
+@import "/styles/blocks/copyright.css";
 @import "/styles/blocks/feedback.css";
 @import "/styles/blocks/footer.css";
 @import "/styles/blocks/header.css";
