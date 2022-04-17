@@ -17,6 +17,6 @@
     width: 17px;
     height: 17px;
 
-    position: relative;
-    box-shadow: 0 0 0 5px #ffffff;
+    border: solid 5px;
+    border-color: #ffffff;
 }
