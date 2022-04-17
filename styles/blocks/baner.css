@@ -1,6 +1,12 @@
 .baner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: #dbebf2;
     background-image: url("/img/baner-desktop@1x.jpg");
+    background-position: center;
+
     height: 389px;
     width: 320px;
 }
