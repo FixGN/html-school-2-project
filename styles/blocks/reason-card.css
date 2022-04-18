@@ -17,10 +17,10 @@
 
 .reason-card__image--city {
     background-color: #dfd6d8;
-    background-image: url("/img/photo-city@1x.jpg");
+    background-image: url("img/photo-city@1x.jpg");
 }
 
 .reason-card__image--bridge{
     background-color: #e2b29b;
-    background-image: url("/img/photo-bridge@1x.jpg");
+    background-image: url("img/photo-bridge@1x.jpg");
 }
