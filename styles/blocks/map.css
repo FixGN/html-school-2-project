@@ -1,6 +1,6 @@
 .map {
     background-color: #f3f2ed;
-    background-image: url("img/map@1x.jpg");
+    background-image: url("../../img/map@1x.jpg");
     background-position: center;
 
     display: flex;
