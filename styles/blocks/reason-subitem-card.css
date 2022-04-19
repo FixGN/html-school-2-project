@@ -1,5 +1,16 @@
 .reason-subitem-card {
+    display: flex;
+    justify-content: space-evenly;
     text-align: left;
+    width: 100%;
+}
+
+.reason-subitem-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 16px;
+    width: 230px;
 }
 
 .reason-subitem-card__header {
@@ -10,4 +21,5 @@
 
 .reason-subitem-card__image {
     fill: #81B3D2;
+    flex-shrink: 0;
 }

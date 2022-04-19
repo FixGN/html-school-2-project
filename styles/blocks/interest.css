@@ -1,15 +1,24 @@
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 24px;
+}
+
 .interest__header {
+    display: block;
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
 }
 
-.intrest__description {
+.interest__description {
     font-weight: 400;
     line-height: 24px;
 }
 
-.intrest__button {
+.interest__button {
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;

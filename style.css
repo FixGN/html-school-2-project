@@ -1,28 +1,28 @@
 /* Global */
-@import "/styles/reset.css";
-@import "/styles/font.css";
+@import "styles/reset.css";
+@import "styles/font.css";
 
 /* Mixins */
-@import "/styles/mixins/button.css";
+@import "styles/mixins/button.css";
 
 /* Blocks */
-@import "/styles/blocks/baner.css";
-@import "/styles/blocks/body.css";
-@import "/styles/blocks/developed-by-link.css";
-@import "/styles/blocks/developed-by.css";
-@import "/styles/blocks/feedback.css";
-@import "/styles/blocks/footer.css";
-@import "/styles/blocks/header.css";
-@import "/styles/blocks/interest.css";
-@import "/styles/blocks/logo.css";
-@import "/styles/blocks/main.css";
-@import "/styles/blocks/map.css";
-@import "/styles/blocks/menu-item.css";
-@import "/styles/blocks/menu.css";
-@import "/styles/blocks/reason-card.css";
-@import "/styles/blocks/reason-item.css";
-@import "/styles/blocks/reason-subitem-card.css";
-@import "/styles/blocks/reason-subitem.css";
-@import "/styles/blocks/reason.css";
-@import "/styles/blocks/social-networks-item.css";
-@import "/styles/blocks/social-networks.css";
+@import "styles/blocks/banner.css";
+@import "styles/blocks/body.css";
+@import "styles/blocks/copyright-link.css";
+@import "styles/blocks/copyright.css";
+@import "styles/blocks/feedback.css";
+@import "styles/blocks/footer.css";
+@import "styles/blocks/header.css";
+@import "styles/blocks/interest.css";
+@import "styles/blocks/logo.css";
+@import "styles/blocks/main.css";
+@import "styles/blocks/map.css";
+@import "styles/blocks/menu-item.css";
+@import "styles/blocks/menu.css";
+@import "styles/blocks/reason-card.css";
+@import "styles/blocks/reason-item.css";
+@import "styles/blocks/reason-subitem-card.css";
+@import "styles/blocks/reason-subitem.css";
+@import "styles/blocks/reason.css";
+@import "styles/blocks/social-networks-item.css";
+@import "styles/blocks/social-networks.css";
