@@ -1,3 +1,7 @@
 .main {
     background-color: #ffffff;
 }
+
+.main__header {
+    display: none;
+}
