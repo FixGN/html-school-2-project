@@ -1,8 +1,16 @@
 .reason {
     line-height: 26px;
+    padding-top: 32px;
 }
 
 .reason__header {
     font-size: 18px;
     font-weight: 700;
+    padding: 0 20px;
+    margin-bottom: 28px;
+}
+
+.reason__description {
+    padding: 0 20px;
+    margin-bottom: 14px;
 }
