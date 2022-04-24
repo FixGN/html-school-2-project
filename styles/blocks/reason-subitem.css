@@ -5,6 +5,6 @@
     padding: 36px 20px;
 }
 
-.reason-subitem__item:not(:last-child)::after {
+.reason-subitem__item:not(:last-child) {
     margin-bottom: 18px;
 }
