@@ -5,6 +5,12 @@
     width: 100%;
 }
 
+.reason-subitem-card__wrapper {
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
+
 .reason-subitem-card__content {
     display: flex;
     flex-direction: column;
@@ -25,6 +31,4 @@
 .reason-subitem-card__image {
     fill: #81B3D2;
     flex-shrink: 0;
-
-    margin-right: 12px;
 }
