@@ -16,11 +16,11 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
-    margin: 12px;
+    margin-bottom: 14px;
 }
 
 .reason-card__number {
-    margin: 16px;
+    margin-bottom: 14px;
 }
 
 .reason-card__image {
