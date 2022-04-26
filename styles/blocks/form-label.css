@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.form-label--radio {
+.form-label--checkable {
     position: relative;
     justify-content: flex-start;
     align-items: center;
