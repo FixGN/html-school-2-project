@@ -29,6 +29,7 @@ h1,
 h2,
 h3,
 h4 {
+    color: #000000;
     display: inherit;
     font-weight: inherit;
     font-size: inherit;
