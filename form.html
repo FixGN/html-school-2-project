@@ -134,20 +134,23 @@
         <legend class="form__legend">Ваше общее впечатление:</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
+            <label class="form-item__label form-label form-label--radio">
               <input class="form-item__input visually-hidden" type="radio" name="feedback" value="positive" checked />
+              <span class="form-item__radio"></span>
               <span class="form-label__text">Скорее положительное</span>
             </label>
           </li>
           <li class="form-list__item form-item">
             <label class="form-item__label form-label">
-              <input class="form-item__input visually-hidden" type="radio" name="feedback" value="negative" />
+              <input class="form-item__input visually-hidden form-label--radio" type="radio" name="feedback" value="negative" />
+              <span class="form-item__radio"></span>
               <span class="form-label__text">Скорее отрицательное</span>
             </label>
           </li>
           <li class="form-list__item form-item">
             <label class="form-item__label form-label">
-              <input class="form-item__input visually-hidden" type="radio" name="feedback" value="unknown" />
+              <input class="form-item__input visually-hidden form-label--radio" type="radio" name="feedback" value="unknown" />
+              <span class="form-item__radio"></span>
               <span class="form-label__text">Затрудняюсь ответить</span>
             </label>
           </li>

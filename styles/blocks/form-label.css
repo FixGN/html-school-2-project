@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.form-label--radio {
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .form-label--column {
     flex-direction: column;
 }
