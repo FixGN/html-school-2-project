@@ -20,7 +20,7 @@
     width: 280px;
     padding: 18px 22px 14px;
     background-color: #f2f2f2;
-    resize: none;
+    resize: vertical;
     line-height: 26px;
     font-size: 18px;
     font-weight: 700;
