@@ -1,0 +1,33 @@
+.input__text {
+    height: 58px;
+    width: 100%;
+    padding-left: 22px;
+    background-color: #f2f2f2;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input__text::placeholder {
+    color: #000000;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input__textarea {
+    height: 160px;
+    width: 280px;
+    padding: 18px 22px 14px;
+    background-color: #f2f2f2;
+    resize: none;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input__textarea::placeholder {
+    color: #000000;
+    line-height: 26px;
+    font-size: 18px;
+}
