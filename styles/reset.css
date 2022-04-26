@@ -17,7 +17,18 @@ textarea {
     border: inherit;
 }
 
-h1, h2, h3, h4 {
+fieldset {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: inherit;
+    border-image: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
     display: inherit;
     font-weight: inherit;
     font-size: inherit;
