@@ -36,3 +36,9 @@
     padding-left: 22px;
     text-align: left;
 }
+
+.form-label__wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

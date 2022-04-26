@@ -13,6 +13,20 @@
     background-color: #333333;
 }
 
+.form-item__icon {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    flex-shrink: 0;
+}
+
+.form-item__image {
+    fill: #010101;
+}
+
 .form-item__input:checked+.form-item__radio {
     border-width: 18px;
 }
