@@ -21,6 +21,13 @@
     line-height: 26px;
 }
 
+.form-label__text--bold {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: none;
+}
+
 .form-label__text--row {
     margin-right: 12px;
 }
