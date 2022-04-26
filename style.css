@@ -13,6 +13,9 @@
 @import "styles/blocks/copyright.css";
 @import "styles/blocks/feedback.css";
 @import "styles/blocks/footer.css";
+@import "styles/blocks/form.css";
+@import "styles/blocks/form-item.css";
+@import "styles/blocks/form-label.css";
 @import "styles/blocks/header.css";
 @import "styles/blocks/interest.css";
 @import "styles/blocks/logo.css";

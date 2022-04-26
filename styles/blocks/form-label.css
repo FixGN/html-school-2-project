@@ -1,0 +1,25 @@
+.form-label {
+    display: flex;
+}
+
+.form-label--row {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label--column {
+    flex-direction: column;
+}
+
+.form-label__text {
+    line-height: 26px;
+}
+
+.form-label__text--row {
+    margin-right: 12px;
+}
+
+.form-label__text--column {
+    padding-left: 22px;
+    text-align: left;
+}
