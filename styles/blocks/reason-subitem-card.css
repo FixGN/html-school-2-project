@@ -5,18 +5,27 @@
     width: 100%;
 }
 
+.reason-subitem-card__wrapper {
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
+
 .reason-subitem-card__content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 16px;
     width: 230px;
+
+    margin-top: 6px;
 }
 
 .reason-subitem-card__header {
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
+
+    margin-bottom: 16px;
 }
 
 .reason-subitem-card__image {

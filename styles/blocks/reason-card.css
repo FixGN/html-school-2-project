@@ -1,11 +1,26 @@
+.reason-card__main {
+    padding: 36px 20px;
+}
+
 .reason-card__main--blue {
     background-color: #81B3D2;
+    color: #ffffff;
+}
+
+.reason-card__main--gray {
+    background-color: #eeeeee;
+    padding: 36px 24px;
 }
 
 .reason-card__header {
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
+    margin-bottom: 14px;
+}
+
+.reason-card__number {
+    margin-bottom: 14px;
 }
 
 .reason-card__image {
@@ -20,7 +35,7 @@
     background-image: url("../../img/photo-city@1x.jpg");
 }
 
-.reason-card__image--bridge{
+.reason-card__image--bridge {
     background-color: #e2b29b;
     background-image: url("../../img/photo-bridge@1x.jpg");
 }

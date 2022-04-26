@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    gap: 24px;
+    padding: 38px 20px 48px;
 }
 
 .interest__header {
@@ -11,11 +11,13 @@
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
+    margin-bottom: 24px;
 }
 
 .interest__description {
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .interest__button {

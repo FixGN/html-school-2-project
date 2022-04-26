@@ -1,4 +1,7 @@
 .social-networks__list {
     display: flex;
-    gap: 6px;
+}
+
+.social-networks__item:not(:last-child) {
+    margin-right: 6px;
 }

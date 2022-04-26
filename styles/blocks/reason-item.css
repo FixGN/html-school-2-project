@@ -1,0 +1,13 @@
+.reason-item__delimitered {
+    position: relative;
+}
+
+.reason-item__delimitered:not(:last-child)::after {
+    content: "";
+    background-color: #D6D6D6;
+    bottom: 0;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+}

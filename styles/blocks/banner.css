@@ -2,16 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     background-color: #dbebf2;
     background-image: url("../../img/banner-desktop@1x.jpg");
-    background-position: center;
+    background-position: bottom left -320px;
 
-    height: 389px;
+    height: 158px;
+    width: 320px;
+}
+
+.banner--main {
+    background-position: center top;
+    height: 390px;
     width: 320px;
 }
 
 .banner__text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 32%;
     fill: #FFFFFF;
 }
 
