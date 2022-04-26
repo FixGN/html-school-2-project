@@ -19,6 +19,10 @@
     margin-bottom: 14px;
 }
 
+.reason-card__header--white {
+    color: #ffffff;
+}
+
 .reason-card__number {
     margin-bottom: 14px;
 }

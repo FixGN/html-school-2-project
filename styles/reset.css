@@ -17,7 +17,19 @@ textarea {
     border: inherit;
 }
 
-h1, h2, h3, h4 {
+fieldset {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: inherit;
+    border-image: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #000000;
     display: inherit;
     font-weight: inherit;
     font-size: inherit;
@@ -44,4 +56,16 @@ li {
 p {
     display: inherit;
     margin: 0px;
+}
+
+input[type="radio"i] {
+    accent-color: #000000;
+}
+
+input,
+textarea {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: inherit;
 }
