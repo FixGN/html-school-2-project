@@ -5,6 +5,7 @@
 /* Mixins */
 @import "styles/mixins/button.css";
 @import "styles/mixins/input.css";
+@import "styles/mixins/visually-hidden.css";
 
 /* Blocks */
 @import "styles/blocks/banner.css";
