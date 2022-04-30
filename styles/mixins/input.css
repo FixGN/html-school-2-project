@@ -24,6 +24,7 @@
     line-height: 26px;
     font-size: 18px;
     font-weight: 700;
+    min-height: 160px;
 }
 
 .input__textarea::placeholder {
