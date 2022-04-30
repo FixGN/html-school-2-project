@@ -3,6 +3,7 @@
 } 
 
 .form-item__radio {
+    cursor: pointer;
     width: 56px;
     height: 56px;
     flex: 0 0 auto;

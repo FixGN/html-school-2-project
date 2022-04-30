@@ -1,4 +1,5 @@
 .form-checkbox {
+    cursor: pointer;
     display: flex;
     width: 56px;
     height: 56px;
