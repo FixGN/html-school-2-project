@@ -7,12 +7,25 @@
     align-items: center;
 }
 
+.form-label--checkable {
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .form-label--column {
     flex-direction: column;
 }
 
 .form-label__text {
     line-height: 26px;
+}
+
+.form-label__text--bold {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: none;
 }
 
 .form-label__text--row {
@@ -22,4 +35,10 @@
 .form-label__text--column {
     padding-left: 22px;
     text-align: left;
+}
+
+.form-label__wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

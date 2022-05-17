@@ -5,6 +5,7 @@
 /* Mixins */
 @import "styles/mixins/button.css";
 @import "styles/mixins/input.css";
+@import "styles/mixins/visually-hidden.css";
 
 /* Blocks */
 @import "styles/blocks/banner.css";
@@ -14,6 +15,7 @@
 @import "styles/blocks/feedback.css";
 @import "styles/blocks/footer.css";
 @import "styles/blocks/form.css";
+@import "styles/blocks/form-checkbox.css";
 @import "styles/blocks/form-item.css";
 @import "styles/blocks/form-label.css";
 @import "styles/blocks/header.css";

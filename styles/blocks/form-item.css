@@ -1,3 +1,33 @@
 .form-item:not(:last-child) {
     margin-bottom: 20px;
 } 
+
+.form-item__radio {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+    margin-right: 22px;
+
+    border-radius: 50%;
+    border: 28px solid #f2f2f2;
+    background-color: #333333;
+}
+
+.form-item__icon {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    flex-shrink: 0;
+}
+
+.form-item__image {
+    fill: #010101;
+}
+
+.form-item__input:checked+.form-item__radio {
+    border-width: 18px;
+}

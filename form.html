@@ -92,21 +92,21 @@
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--row">
               <span class="form-label__text form-label__text--row">Имя*:</span>
-              <input class="form-item__input input__text" type="text" name="FirstName" placeholder="Введите имя"
+              <input class="form-item__input input__text" type="text" inputmode="text" name="FirstName" placeholder="Введите имя"
                 minlength="4" maxlength="20" required />
             </label>
           </li>
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--row">
               <span class="form-label__text form-label__text--row">Фамилия*:</span>
-              <input class="form-item__input input__text" type="text" name="LastName" placeholder="Введите фамилию"
+              <input class="form-item__input input__text" type="text" inputmode="text" name="LastName" placeholder="Введите фамилию"
                 minlength="4" maxlength="30" required />
             </label>
           </li>
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--row">
               <span class="form-label__text form-label__text--row">Отчество:</span>
-              <input class="form-item__input input__text" type="text" name="MiddleName" placeholder="Введите отчество"
+              <input class="form-item__input input__text" type="text" inputmode="text" name="MiddleName" placeholder="Введите отчество"
                 minlength="4" maxlength="20" />
             </label>
           </li>
@@ -118,15 +118,31 @@
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--column">
               <span class="form-label__text form-label__text--column">Контактный телефон*:</span>
-              <input class="form-item__input input__text" type="tel" name="phone" placeholder="Введите телефон"
-                pattern="[7,8]{1}[0-9]{10}" required />
+              <div class="form-label__wrapper">
+                <input class="form-item__input input__text" type="tel" inputmode="tel" name="phone" placeholder="Введите телефон"
+                  pattern="[7,8]{1}[0-9]{10}" required />
+                <div class="form-item__icon">
+                  <svg class="form-item__image" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M3.6 7.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V17c0 .6-.4 1-1 1C7.6 18 0 10.4 0 1c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1L3.6 7.8Z" />
+                  </svg>
+                </div>
+              </div>
             </label>
           </li>
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--column">
               <span class="form-label__text form-label__text--column">Электронная почта*:</span>
-              <input class="form-item__input input__text" type="email" name="email" placeholder="Введите e-mail"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$" required />
+              <div class="form-label__wrapper">
+                <input class="form-item__input input__text" type="email" inputmode="email" name="email" placeholder="Введите e-mail"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$" required />
+                <div class="form-item__icon">
+                  <svg class="form-item__image" width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8 8c-.3 0-.5-.1-1-.3L0 4v7c0 .5.5 1 1 1h14c.5 0 1-.5 1-1V4L9 7.7c-.5.2-.7.3-1 .3Zm7-8H1C.5 0 0 .5 0 1v.8L8 6l8-4.2V1c0-.5-.5-1-1-1Z" />
+                  </svg>
+                </div>
+              </div>
             </label>
           </li>
       </fieldset>
@@ -134,21 +150,24 @@
         <legend class="form__legend">Ваше общее впечатление:</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="radio" name="feedback" value="positive" checked />
-              <span class="form-label__text">Скорее положительное</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="radio" name="feedback" value="positive" checked />
+              <span class="form-item__radio"></span>
+              <span class="form-label__text form-label__text--bold">Скорее положительное</span>
             </label>
           </li>
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="radio" name="feedback" value="negative" />
-              <span class="form-label__text">Скорее отрицательное</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="radio" name="feedback" value="negative" />
+              <span class="form-item__radio"></span>
+              <span class="form-label__text form-label__text--bold">Скорее отрицательное</span>
             </label>
           </li>
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="radio" name="feedback" value="unknown" />
-              <span class="form-label__text">Затрудняюсь ответить</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="radio" name="feedback" value="unknown" />
+              <span class="form-item__radio"></span>
+              <span class="form-label__text form-label__text--bold">Затрудняюсь ответить</span>
             </label>
           </li>
         </ul>
@@ -157,27 +176,51 @@
         <legend class="form__legend">Посещённые достопримечательности:</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="checkbox" name="isDevilBridgeWasVisited" />
-              <span class="form-label__text">Мост Дьявола</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="checkbox" name="isDevilBridgeWasVisited" />
+              <span class="form-item__checkbox form-checkbox">
+                <svg class="form-checkbox__image" width="24" height="17" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m22.925 1.325-1.1-1.1c-.3-.3-.9-.3-1.2 0l-11.9 11.9-6.2-6.2c-.3-.3-.9-.3-1.2 0l-1.1 1.1c-.3.3-.3.9 0 1.2l7.8 7.8c.2.2.4.2.6.2.2 0 .4-.1.6-.2l13.5-13.5c.5-.3.5-.8.2-1.2Z" />
+                </svg>
+              </span>
+              <span class="form-label__text form-label__text--bold">Мост Дьявола</span>
             </label>
           </li>
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="checkbox" name="isBellMountainWasVisited" />
-              <span class="form-label__text">Гора-колокол</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="checkbox" name="isBellMountainWasVisited" />
+              <span class="form-item__checkbox form-checkbox">
+                <svg class="form-checkbox__image" width="24" height="17" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m22.925 1.325-1.1-1.1c-.3-.3-.9-.3-1.2 0l-11.9 11.9-6.2-6.2c-.3-.3-.9-.3-1.2 0l-1.1 1.1c-.3.3-.3.9 0 1.2l7.8 7.8c.2.2.4.2.6.2.2 0 .4-.1.6-.2l13.5-13.5c.5-.3.5-.8.2-1.2Z" />
+                </svg>
+              </span>
+              <span class="form-label__text form-label__text--bold">Гора-колокол</span>
             </label>
           </li>
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="checkbox" name="isSlideParkWasVisited" />
-              <span class="form-label__text">Слайд-парк</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="checkbox" name="isSlideParkWasVisited" />
+              <span class="form-item__checkbox form-checkbox">
+                <svg class="form-checkbox__image" width="24" height="17" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m22.925 1.325-1.1-1.1c-.3-.3-.9-.3-1.2 0l-11.9 11.9-6.2-6.2c-.3-.3-.9-.3-1.2 0l-1.1 1.1c-.3.3-.3.9 0 1.2l7.8 7.8c.2.2.4.2.6.2.2 0 .4-.1.6-.2l13.5-13.5c.5-.3.5-.8.2-1.2Z" />
+                </svg>
+              </span>
+              <span class="form-label__text form-label__text--bold">Слайд-парк</span>
             </label>
           </li>
           <li class="form-list__item form-item">
-            <label class="form-item__label form-label">
-              <input class="form-item__input" type="checkbox" name="areRedRocksWereVisited" />
-              <span class="form-label__text">Красные скалы</span>
+            <label class="form-item__label form-label form-label--checkable">
+              <input class="form-item__input visually-hidden" type="checkbox" name="areRedRocksWereVisited" />
+              <span class="form-item__checkbox form-checkbox">
+                <svg class="form-checkbox__image" width="24" height="17" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m22.925 1.325-1.1-1.1c-.3-.3-.9-.3-1.2 0l-11.9 11.9-6.2-6.2c-.3-.3-.9-.3-1.2 0l-1.1 1.1c-.3.3-.3.9 0 1.2l7.8 7.8c.2.2.4.2.6.2.2 0 .4-.1.6-.2l13.5-13.5c.5-.3.5-.8.2-1.2Z" />
+                </svg>
+              </span>
+              <span class="form-label__text form-label__text--bold">Красные скалы</span>
             </label>
           </li>
         </ul>
@@ -187,7 +230,10 @@
         <textarea class="input__textarea" rows="8" cols="36"
           placeholder="Опишите подробнее все свои восторги"></textarea>
       </fieldset>
-      <button class="form__button button" type="submit">Отправить отзыв</button>
+      <div class="form__button-wrapper">
+        <button class="form__button button" type="submit">Отправить отзыв</button>
+        <span class="form__hint">* - обязательные поля</span>
+      </div>
     </form>
   </main>
   <footer class="footer">
