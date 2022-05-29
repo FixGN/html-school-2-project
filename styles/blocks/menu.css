@@ -75,3 +75,16 @@
     top: 50%;
     transform: translateY(-50%) rotate(-45deg) scaleX(1.16);
 }
+
+@media (min-width: 768px) {
+    .menu__list {
+        display: flex;
+        flex-direction: row;
+        transform: translateX(0);
+        background-color: transparent;
+    }
+
+    .menu__toggle-button {
+        display: none;
+    }
+}
