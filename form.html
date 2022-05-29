@@ -99,9 +99,9 @@
         </p>
       </div>
     </section>
-    <form method="POST" action="https://echo.htmlacademy.ru">
-      <fieldset class="form__fieldset">
-        <legend class="form__legend">Представьтесь</legend>
+    <form class="form" method="POST" action="https://echo.htmlacademy.ru">
+      <fieldset class="form__fieldset form__fieldset--short">
+        <legend class="form__legend form__legend--short">Представьтесь</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--row">
@@ -126,7 +126,7 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form__fieldset">
+      <fieldset class="form__fieldset form__fieldset--full">
         <legend class="form__legend">Контактная информация:</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
@@ -160,8 +160,8 @@
             </label>
           </li>
       </fieldset>
-      <fieldset class="form__fieldset">
-        <legend class="form__legend">Ваше общее впечатление:</legend>
+      <fieldset class="form__fieldset form__fieldset--short form__fieldset--impression">
+        <legend class="form__legend form__legend--short">Ваше общее впечатление:</legend>
         <ul class="form__list form-list">
           <li class="form-list__item form-item">
             <label class="form-item__label form-label form-label--checkable">
@@ -186,10 +186,10 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form__fieldset">
+      <fieldset class="form__fieldset form__fieldset--full">
         <legend class="form__legend">Посещённые достопримечательности:</legend>
-        <ul class="form__list form-list">
-          <li class="form-list__item form-item">
+        <ul class="form__list form-list form-list--impression">
+          <li class="form-list__item form-list__item--impression form-item">
             <label class="form-item__label form-label form-label--checkable">
               <input class="form-item__input visually-hidden" type="checkbox" name="isDevilBridgeWasVisited" />
               <span class="form-item__checkbox form-checkbox">
@@ -201,7 +201,7 @@
               <span class="form-label__text form-label__text--bold">Мост Дьявола</span>
             </label>
           </li>
-          <li class="form-list__item form-item">
+          <li class="form-list__item form-list__item--impression form-item">
             <label class="form-item__label form-label form-label--checkable">
               <input class="form-item__input visually-hidden" type="checkbox" name="isBellMountainWasVisited" />
               <span class="form-item__checkbox form-checkbox">
@@ -213,7 +213,7 @@
               <span class="form-label__text form-label__text--bold">Гора-колокол</span>
             </label>
           </li>
-          <li class="form-list__item form-item">
+          <li class="form-list__item form-list__item--impression form-item">
             <label class="form-item__label form-label form-label--checkable">
               <input class="form-item__input visually-hidden" type="checkbox" name="isSlideParkWasVisited" />
               <span class="form-item__checkbox form-checkbox">
@@ -225,7 +225,7 @@
               <span class="form-label__text form-label__text--bold">Слайд-парк</span>
             </label>
           </li>
-          <li class="form-list__item form-item">
+          <li class="form-list__item form-list__item--impression form-item">
             <label class="form-item__label form-label form-label--checkable">
               <input class="form-item__input visually-hidden" type="checkbox" name="areRedRocksWereVisited" />
               <span class="form-item__checkbox form-checkbox">
@@ -239,7 +239,7 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form__fieldset">
+      <fieldset class="form__fieldset form__fieldset--full">
         <legend class="form__legend">Опишите свои эмоции:</legend>
         <textarea class="input__textarea" rows="8" cols="36"
           placeholder="Опишите подробнее все свои восторги"></textarea>
