@@ -9,6 +9,8 @@
     background-position: bottom left -320px;
 
     height: 158px;
+
+    overflow: hidden;
 }
 
 .banner--main {
@@ -30,4 +32,13 @@
 
 .banner__text--brown {
     fill: #766458;
+}
+
+.banner__sepparator {
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    fill: #FFFFFF;
 }
