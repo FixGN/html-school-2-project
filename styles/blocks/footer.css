@@ -14,6 +14,21 @@
     margin-bottom: 32px;
 }
 
-.social-networks__list {
+.footer__social-networks {
     margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer__hashtag {
+        margin: 0;
+    }
+
+    .footer__social-networks {
+        margin: 0;
+    }
 }
