@@ -42,3 +42,37 @@
     background-color: #e2b29b;
     background-image: url("../../img/photo-bridge@1x.jpg");
 }
+
+@media (min-width: 768px) {
+    .reason-card {
+        width: 100%;
+    }
+
+    .reason-card__main {
+        height: 256px;
+        padding: 40px 32px 0;
+    }
+
+    .reason-card__header {
+        font-size: 21px;
+    }
+
+    .reason-card__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+    }
+
+    .reason-card__wrapper--reverse {
+        flex-direction: row-reverse;
+    }
+
+    .reason-card__main--blue {
+        width: 33%;
+    }
+
+    .reason-card__image {
+        width: 67%;
+        height: 256px;
+    }
+}

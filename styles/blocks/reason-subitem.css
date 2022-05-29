@@ -8,3 +8,20 @@
 .reason-subitem__item:not(:last-child) {
     margin-bottom: 18px;
 }
+
+@media (min-width: 768px) {
+    .reason-subitem__list {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        padding: 60px 32px;
+    }
+
+    .reason-subitem__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .reason-subitem__item--souvenir {
+        order: 1;
+    }
+}
