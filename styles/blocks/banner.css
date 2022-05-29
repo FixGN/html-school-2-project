@@ -4,9 +4,11 @@
     align-items: center;
     position: relative;
 
+    height: 158px;
+
     background-color: #dbebf2;
     background-image: url("../../img/banner-desktop@1x.jpg");
-    background-position: bottom left -320px;
+    background-position: bottom right;
 
     overflow: hidden;
 }
@@ -22,9 +24,13 @@
     transform: translateX(-50%);
     top: 32%;
 
-    width: 280px;
+    width: 230px;
 
     fill: #FFFFFF;
+}
+
+.banner__text--main {
+    width: 280px;
 }
 
 .banner__text--blue {
@@ -46,10 +52,18 @@
 
 @media (min-width: 768px) {
     .banner {
+        height: 302px;
+    }
+
+    .banner--main {
         height: 518px;
     }
 
     .banner__text {
+        width: 468px;
+    }
+
+    .banner__text--main {
         top: 15%;
         width: 460px;
     }
