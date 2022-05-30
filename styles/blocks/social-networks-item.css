@@ -11,3 +11,11 @@
 .social-networks-item__icon {
     fill: #FFFFFF;
 }
+
+.social-networks-item__link:active {
+    background: #5496BD;
+}
+
+.social-networks-item__link:active .social-networks-item__icon {
+    opacity: 0.3;
+}
