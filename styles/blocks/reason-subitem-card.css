@@ -1,6 +1,6 @@
 .reason-subitem-card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: left;
     width: 100%;
 }
