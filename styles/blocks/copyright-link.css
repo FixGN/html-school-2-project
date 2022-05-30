@@ -5,3 +5,13 @@
 .copyright-link__text {
     margin-right: 12px;
 }
+
+.copyright-link:active .copyright-link__image {
+    opacity: 0.3;
+}
+
+@media (min-width:1200px) {
+    .copyright-link:hover .copyright-link__image {
+        fill: #81B3D2;
+    }
+}
