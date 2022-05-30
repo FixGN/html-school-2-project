@@ -4,8 +4,24 @@
     font-size: 21px;
     font-weight: 700;
 
-    color: #fff;
+    color: #ffffff;
     background-color: #81b3d2;
     border: none;
     cursor: pointer;
+}
+
+.button:active {
+    background-color: #5496BD;
+    color: rgba(255, 255, 255, 0.3)
+}
+
+button:disabled,
+button[disabled] {
+    background-color: #E5E5E5;
+}
+
+@media (min-width:1200px) {
+    .button:hover {
+        background-color: #669EC0;
+    }
 }
