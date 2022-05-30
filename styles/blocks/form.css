@@ -56,7 +56,7 @@
     }
 
     .form__fieldset {
-        padding-bottom: 58px;
+        padding: 0 0 58px;
     }
 
     .form__fieldset--full {
@@ -93,6 +93,7 @@
     }
 
     .form__fieldset:first-child {
+        padding-left: 58px;
         border-left: 1px solid #e5e5e5;
     }
 
@@ -107,4 +108,13 @@
     .form__legend::before {
         display: none;
     }
+}
+
+
+@media (min-width: 1200px){
+    .form {
+        padding: 0 120px;
+    }
+
+    
 }

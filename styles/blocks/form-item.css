@@ -1,7 +1,3 @@
-.form-item:not(:last-child) {
-    margin-bottom: 20px;
-} 
-
 .form-item__radio {
     cursor: pointer;
     width: 56px;

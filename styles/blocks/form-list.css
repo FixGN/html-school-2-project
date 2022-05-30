@@ -19,3 +19,16 @@
         margin-bottom: 32px;
     }
 }
+
+@media (min-width: 1200px) {
+    .form-list--contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form-list__item--contacts:not(:last-child) {
+        flex-basis: 50%;
+        margin: 0;
+    }
+}

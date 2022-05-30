@@ -128,10 +128,11 @@
       </fieldset>
       <fieldset class="form__fieldset form__fieldset--full">
         <legend class="form__legend">Контактная информация:</legend>
-        <ul class="form__list form-list">
-          <li class="form-list__item form-item">
-            <label class="form-item__label form-label form-label--column">
-              <span class="form-label__text form-label__text--column">Контактный телефон*:</span>
+        <ul class="form__list form-list form-list--contacts">
+          <li class="form-list__item form-list__item--contacts form-item">
+            <label class="form-item__label form-label form-label--contacts">
+              <span class="form-label__text form-label__text--contacts">
+                <span class="form-label__text--disabled">Контактный </span>телефон*:</span>
               <div class="form-label__wrapper">
                 <input class="form-item__input input__text" type="tel" inputmode="tel" name="phone"
                   placeholder="Введите телефон" pattern="[7,8]{1}[0-9]{10}" required />
@@ -144,9 +145,9 @@
               </div>
             </label>
           </li>
-          <li class="form-list__item form-item">
-            <label class="form-item__label form-label form-label--column">
-              <span class="form-label__text form-label__text--column">Электронная почта*:</span>
+          <li class="form-list__item form-list__item--contacts form-item">
+            <label class="form-item__label form-label form-label--contacts">
+              <span class="form-label__text form-label__text--contacts">Электронная почта*:</span>
               <div class="form-label__wrapper">
                 <input class="form-item__input input__text" type="email" inputmode="email" name="email"
                   placeholder="Введите e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$" required />
