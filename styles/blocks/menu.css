@@ -34,6 +34,10 @@
     transform: translateY(-50%);
 }
 
+.menu__toggle-button:active {
+    opacity: 0.3;
+}
+
 .menu__button-line {
     position: absolute;
     display: block;
