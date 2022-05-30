@@ -27,3 +27,33 @@
 .form-item__input:checked+.form-item__radio {
     border-width: 18px;
 }
+
+.form-item__label:active .form-item__input+.form-item__radio {
+    border-color: #D5D5D5;
+}
+
+.form-item__label:active .form-item__input:checked+.form-item__radio {
+    background-color: rgb(51,51,51, 0.3);
+}
+
+.form-item__label:active .form-item__checkbox {
+    background-color: #D5D5D5;
+}
+
+.form-item__label:active .form-item__checkbox .form-checkbox__image {
+    opacity: 0.3;
+}
+
+@media (min-width:1200px) {
+    .form-item__input:hover+.form-item__radio {
+        border-color: #E5E5E5;
+    }
+
+    .form-item__label:hover .input__text {
+        background: #E5E5E5;
+    }
+
+    .form-item__label:hover .form-item__checkbox {
+        background-color: #E5E5E5;
+    }
+}
