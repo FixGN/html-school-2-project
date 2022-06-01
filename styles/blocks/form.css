@@ -48,6 +48,10 @@
         padding: 0 60px;
     }
 
+    .form__button {
+        width: 312px;
+    }
+
     .form__button-wrapper {
         display: flex;
         flex-direction: row;
@@ -66,7 +70,7 @@
     .form__fieldset--full::before {
         content: "";
         background-color: #e5e5e5;
-        top: -14%;
+        top: -32%;
         position: absolute;
         left: 60px;
         width: 124px;
@@ -76,11 +80,19 @@
     .form__fieldset--full::after {
         content: "";
         background-color: #e5e5e5;
-        top: -12%;
+        top: -28%;
         position: absolute;
         right: 60px;
         width: 124px;
         height: 1px;
+    }
+
+    .form__fieldset--contacts::before {
+        top: -74%;
+    }
+
+    .form__fieldset--contacts::after {
+        top: -74%;
     }
 
     .form__fieldset--short {
@@ -105,16 +117,42 @@
         margin-bottom: 56px;
     }
 
+    .form__legend--attractions {
+        margin-bottom: 44px;
+    }
+
+    .form__legend--contracts {
+        margin-bottom: 24px;
+    }
+
+    .form__legend--emotions {
+        margin-bottom: 56px;
+    }
+
     .form__legend::before {
         display: none;
     }
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .form {
         padding: 0 120px;
     }
 
-    
+    .form__button {
+        width: 480px;
+    }
+
+    .form__fieldset--big-top::before {
+        top: -44%;
+    }
+
+    .form__fieldset--big-top::after {
+        top: -44%;
+    }
+
+    .form__legend--contracts {
+        margin-bottom: 72px;
+    }
 }
