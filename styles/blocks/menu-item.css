@@ -31,7 +31,7 @@
     max-width: 100vw;
 }
 
-.menu-item__link:active {
+.menu__item:active .menu-item__link {
     background-color: #5496BD;
 }
 
@@ -39,7 +39,7 @@
     background-color: #5496BD;
 }
 
-.menu-item__text:active {
+.menu__item:active .menu-item__link .menu-item__text {
     opacity: 0.3;
 }
 
@@ -66,13 +66,13 @@
         background-color: transparent;
     }
 
-    .menu-item__link:active {
+    .menu__item:active .menu-item__link {
         background-color: transparent;
     }
 }
 
 @media (min-width: 1200px) {
-    .menu-item__link:hover {
+    .menu__item:hover .menu-item__link {
         color: #81B3D2;
     }
 }
