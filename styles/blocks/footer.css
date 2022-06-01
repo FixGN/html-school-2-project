@@ -21,7 +21,8 @@
 @media (min-width: 768px) {
     .footer {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding: 38px 60px 36px;
     }
 
     .footer__hashtag {
@@ -31,4 +32,10 @@
     .footer__social-networks {
         margin: 0;
     }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        padding: 38px 120px 36px;
+    }    
 }
