@@ -11,3 +11,17 @@
     right: 20px;
     height: 1px;
 }
+
+@media (min-width:768px) {
+    .reason-item--big {
+        flex-basis: 100%;
+    }
+
+    .reason-item--short {
+        flex-basis: calc(100% / 3);
+    }
+
+    .reason-item__delimitered::after {
+        display: none;
+    }
+}

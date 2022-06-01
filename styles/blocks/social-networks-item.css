@@ -11,3 +11,15 @@
 .social-networks-item__icon {
     fill: #FFFFFF;
 }
+
+.social-networks-item__link:hover {
+    background-color: #669EC0;
+}
+
+.social-networks-item__link:active {
+    background-color: #5496BD;
+}
+
+.social-networks-item__link:active .social-networks-item__icon {
+    opacity: 0.3;
+}

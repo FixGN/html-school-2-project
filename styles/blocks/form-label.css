@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.form-label--column {
+.form-label--contacts {
     flex-direction: column;
 }
 
@@ -32,7 +32,7 @@
     margin-right: 12px;
 }
 
-.form-label__text--column {
+.form-label__text--contacts {
     padding-left: 22px;
     text-align: left;
 }
@@ -41,4 +41,21 @@
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+@media (min-width: 1200px){
+    .form-label--contacts {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-label__text--contacts {
+        padding-left: 0;
+        padding-right: 14px;
+    }
+
+    .form-label__text--disabled {
+        display: none;
+    }
 }

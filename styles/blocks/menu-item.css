@@ -17,8 +17,6 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #81B3D2;
-
     color: #ffffff;
 
     height: 56px;
@@ -31,4 +29,50 @@
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 100vw;
+}
+
+.menu__item:active .menu-item__link {
+    background-color: #5496BD;
+}
+
+.menu-item__link--current {
+    background-color: #5496BD;
+}
+
+.menu__item:active .menu-item__link .menu-item__text {
+    opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+    .menu-item {
+        width: 20%;
+        margin: 0;
+    }
+
+    .menu-item:not(:last-child)::after {
+        display: none;
+    }
+
+    .menu-item:nth-child(2) {
+        margin-right: auto;
+    }
+
+    .menu-item__link {
+        color: #000000;
+    }
+
+    .menu-item__link--current {
+        color: #766357;
+        background-color: transparent;
+    }
+
+    .menu__item:active .menu-item__link {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu__item:hover .menu-item__link {
+        color: #81B3D2;
+    }
 }

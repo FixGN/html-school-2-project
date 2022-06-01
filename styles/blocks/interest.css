@@ -1,9 +1,16 @@
 .interest {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     padding: 38px 20px 48px;
+}
+
+.interest__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .interest__header {
@@ -24,4 +31,23 @@
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
+}
+
+@media (min-width: 768px) {
+    .interest {
+        padding: 58px 0 60px;
+    }
+
+    .interest__wrapper {
+        width: 458px;    
+    }
+
+    .interest__header {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+
+    .interest__description {
+        margin-bottom: 36px;
+    }
 }
