@@ -1,7 +1,14 @@
 .social-networks__list {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .social-networks__item:not(:last-child) {
     margin-right: 6px;
+}
+
+@media (min-width:768px) {
+    .social-networks__list {
+        margin-bottom: 0;
+    }
 }
